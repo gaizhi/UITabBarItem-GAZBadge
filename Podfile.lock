@@ -1,0 +1,19 @@
+PODS:
+  - NSObject-GZHObject (0.0.1)
+  - UITabBarItem-GZHTabBarItem (0.0.1):
+    - NSObject-GZHObject (~> 0.0.1)
+
+DEPENDENCIES:
+  - UITabBarItem-GZHTabBarItem (from `./UITabBarItem-GZHTabBarItem.podspec`)
+
+EXTERNAL SOURCES:
+  UITabBarItem-GZHTabBarItem:
+    :path: ./UITabBarItem-GZHTabBarItem.podspec
+
+SPEC CHECKSUMS:
+  NSObject-GZHObject: b4b618bc10f532bcdd0896a6bc990f22d5c24ec9
+  UITabBarItem-GZHTabBarItem: be0f39fb25b512f71df7d54bfad6facee8f37a8d
+
+PODFILE CHECKSUM: 963afeda12d3d83211b05a6630607e072a0d2df1
+
+COCOAPODS: 1.4.0

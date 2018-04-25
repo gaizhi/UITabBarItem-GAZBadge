@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="F31-yq-Dok">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRc-oZ-Hmc">
+                                <rect key="frame" x="164.5" y="50" width="46" height="30"/>
+                                <state key="normal" title="小红点"/>
+                                <connections>
+                                    <action selector="redDot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aaY-wI-2H5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEK-q5-MZs">
+                                <rect key="frame" x="172.5" y="110" width="30" height="30"/>
+                                <state key="normal" title="new"/>
+                                <connections>
+                                    <action selector="newBadge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EgQ-so-aGo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCM-By-ptp">
+                                <rect key="frame" x="164" y="170" width="47" height="30"/>
+                                <state key="normal" title="数字10"/>
+                                <connections>
+                                    <action selector="tenBadge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="euK-ye-fsh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9M4-4Z-c7b">
+                                <rect key="frame" x="172.5" y="230" width="30" height="30"/>
+                                <state key="normal" title="nil"/>
+                                <connections>
+                                    <action selector="nilBadge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VGS-NK-Jge"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gCM-By-ptp" firstAttribute="top" secondItem="oEK-q5-MZs" secondAttribute="bottom" constant="30" id="Gwq-es-Wuc"/>
+                            <constraint firstItem="KRc-oZ-Hmc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="L1E-Vk-fuk"/>
+                            <constraint firstItem="9M4-4Z-c7b" firstAttribute="centerX" secondItem="gCM-By-ptp" secondAttribute="centerX" id="LyM-o2-w2v"/>
+                            <constraint firstItem="oEK-q5-MZs" firstAttribute="top" secondItem="KRc-oZ-Hmc" secondAttribute="bottom" constant="30" id="Lye-sQ-BUC"/>
+                            <constraint firstItem="oEK-q5-MZs" firstAttribute="centerX" secondItem="KRc-oZ-Hmc" secondAttribute="centerX" id="jhj-cZ-Lbq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="KRc-oZ-Hmc" secondAttribute="top" constant="-30" id="r8T-ch-FpA"/>
+                            <constraint firstItem="gCM-By-ptp" firstAttribute="centerX" secondItem="oEK-q5-MZs" secondAttribute="centerX" id="wHd-Wj-fPQ"/>
+                            <constraint firstItem="9M4-4Z-c7b" firstAttribute="top" secondItem="gCM-By-ptp" secondAttribute="bottom" constant="30" id="zt1-9Y-Pgo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="ujG-DQ-E5O"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="132.68365817091455"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="jvD-4n-7A1">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="F31-yq-Dok" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XC1-a6-ky8">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="VoV-1K-srf"/>
+                        <segue destination="BLO-oJ-shk" kind="relationship" relationship="viewControllers" id="HZo-Wg-an1"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l8g-EB-QV2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="xOe-Py-vAn">
+            <objects>
+                <viewController id="BLO-oJ-shk" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b53-ag-adC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPC-hb-4hX">
+                                <rect key="frame" x="164.5" y="50" width="46" height="30"/>
+                                <state key="normal" title="小红点"/>
+                                <connections>
+                                    <action selector="redDot:" destination="BLO-oJ-shk" eventType="touchUpInside" id="hEe-E4-5Hk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1S-cn-Qu2">
+                                <rect key="frame" x="172.5" y="110" width="30" height="30"/>
+                                <state key="normal" title="new"/>
+                                <connections>
+                                    <action selector="newBadge:" destination="BLO-oJ-shk" eventType="touchUpInside" id="ifO-mR-xwF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJy-zg-g7p">
+                                <rect key="frame" x="164" y="170" width="47" height="30"/>
+                                <state key="normal" title="数字10"/>
+                                <connections>
+                                    <action selector="tenBadge:" destination="BLO-oJ-shk" eventType="touchUpInside" id="Rbt-Kg-MUg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25E-Xc-Sc2">
+                                <rect key="frame" x="172.5" y="230" width="30" height="30"/>
+                                <state key="normal" title="nil"/>
+                                <connections>
+                                    <action selector="nilBadge:" destination="BLO-oJ-shk" eventType="touchUpInside" id="ERe-rj-Qiz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qJy-zg-g7p" firstAttribute="centerX" secondItem="a1S-cn-Qu2" secondAttribute="centerX" id="1GB-tz-HAc"/>
+                            <constraint firstItem="XPC-hb-4hX" firstAttribute="centerX" secondItem="hvo-YU-Yv2" secondAttribute="centerX" id="9V1-lf-BPO"/>
+                            <constraint firstItem="25E-Xc-Sc2" firstAttribute="top" secondItem="qJy-zg-g7p" secondAttribute="bottom" constant="30" id="Dxr-kh-TIm"/>
+                            <constraint firstItem="a1S-cn-Qu2" firstAttribute="centerX" secondItem="XPC-hb-4hX" secondAttribute="centerX" id="Ou5-Uo-CLt"/>
+                            <constraint firstItem="hvo-YU-Yv2" firstAttribute="top" secondItem="XPC-hb-4hX" secondAttribute="top" constant="-30" id="SNc-Vy-9xE"/>
+                            <constraint firstItem="25E-Xc-Sc2" firstAttribute="centerX" secondItem="qJy-zg-g7p" secondAttribute="centerX" id="adz-qz-FVr"/>
+                            <constraint firstItem="a1S-cn-Qu2" firstAttribute="top" secondItem="XPC-hb-4hX" secondAttribute="bottom" constant="30" id="atI-Ji-x8p"/>
+                            <constraint firstItem="qJy-zg-g7p" firstAttribute="top" secondItem="a1S-cn-Qu2" secondAttribute="bottom" constant="30" id="khu-p2-ddj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hvo-YU-Yv2"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="QYJ-u9-Q6j"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lms-Py-SZG" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="860"/>
+        </scene>
+    </scenes>
+</document>
