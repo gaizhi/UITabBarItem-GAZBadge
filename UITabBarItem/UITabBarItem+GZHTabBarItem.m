@@ -8,7 +8,7 @@
 
 #import "UITabBarItem+GZHTabBarItem.h"
 
-#import <NSObject-GZHObject/NSObject+GZHObject.h>
+#import "NSObject+GZHObject.h"
 
 #import <objc/runtime.h>
 
