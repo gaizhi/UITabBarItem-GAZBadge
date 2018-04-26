@@ -7,90 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A6B17FE2090679200630F04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B17FD2090679200630F04 /* AppDelegate.m */; };
-		4A6B18012090679200630F04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B18002090679200630F04 /* ViewController.m */; };
-		4A6B18042090679200630F04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6B18022090679200630F04 /* Main.storyboard */; };
-		4A6B18062090679300630F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A6B18052090679300630F04 /* Assets.xcassets */; };
-		4A6B18092090679300630F04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6B18072090679300630F04 /* LaunchScreen.storyboard */; };
-		4A6B180C2090679300630F04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B180B2090679300630F04 /* main.m */; };
-		EB83F4E5B842E1325926D07F /* libPods-GZHTabBarItemDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7F002D9898593705BA567A /* libPods-GZHTabBarItemDemo.a */; };
+		1461E2A11F054BD390804CBD /* libPods-GIHTabBarItemDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F16357228436099484D9943A /* libPods-GIHTabBarItemDemo.a */; };
+		4AAF58742092058B000D061B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAF58732092058B000D061B /* AppDelegate.m */; };
+		4AAF58772092058B000D061B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAF58762092058B000D061B /* ViewController.m */; };
+		4AAF587A2092058B000D061B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAF58782092058B000D061B /* Main.storyboard */; };
+		4AAF587C2092058C000D061B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAF587B2092058C000D061B /* Assets.xcassets */; };
+		4AAF587F2092058C000D061B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAF587D2092058C000D061B /* LaunchScreen.storyboard */; };
+		4AAF58822092058C000D061B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAF58812092058C000D061B /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E7F002D9898593705BA567A /* libPods-GZHTabBarItemDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GZHTabBarItemDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44EE0E2252F29B2D2FEA072A /* Pods-GZHTabBarItemDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZHTabBarItemDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GZHTabBarItemDemo/Pods-GZHTabBarItemDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		4A6B17F92090679200630F04 /* GZHTabBarItemDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GZHTabBarItemDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A6B17FC2090679200630F04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4A6B17FD2090679200630F04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A6B17FF2090679200630F04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4A6B18002090679200630F04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4A6B18032090679200630F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4A6B18052090679300630F04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4A6B18082090679300630F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4A6B180A2090679300630F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A6B180B2090679300630F04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F574C4C67AABAC312FD6B551 /* Pods-GZHTabBarItemDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZHTabBarItemDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GZHTabBarItemDemo/Pods-GZHTabBarItemDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3ADBBC712F8C7264AC16A162 /* Pods-GIHTabBarItemDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIHTabBarItemDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GIHTabBarItemDemo/Pods-GIHTabBarItemDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4AAF586F2092058B000D061B /* GIHTabBarItemDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIHTabBarItemDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAF58722092058B000D061B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AAF58732092058B000D061B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AAF58752092058B000D061B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AAF58762092058B000D061B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AAF58792092058B000D061B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AAF587B2092058C000D061B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AAF587E2092058C000D061B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AAF58802092058C000D061B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AAF58812092058C000D061B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F16357228436099484D9943A /* libPods-GIHTabBarItemDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GIHTabBarItemDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F652A98C913D99BB45F4A656 /* Pods-GIHTabBarItemDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIHTabBarItemDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GIHTabBarItemDemo/Pods-GIHTabBarItemDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4A6B17F62090679200630F04 /* Frameworks */ = {
+		4AAF586C2092058B000D061B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB83F4E5B842E1325926D07F /* libPods-GZHTabBarItemDemo.a in Frameworks */,
+				1461E2A11F054BD390804CBD /* libPods-GIHTabBarItemDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A6B17F02090679200630F04 = {
+		4AAF58662092058B000D061B = {
 			isa = PBXGroup;
 			children = (
-				4A6B17FB2090679200630F04 /* GZHTabBarItemDemo */,
-				4A6B17FA2090679200630F04 /* Products */,
-				5E53EBE47E06D50C1DCA8EB5 /* Pods */,
-				DF8CC1F506C08C64C2D592CD /* Frameworks */,
+				4AAF58712092058B000D061B /* GIHTabBarItemDemo */,
+				4AAF58702092058B000D061B /* Products */,
+				829D358E654F0F45DB88F573 /* Pods */,
+				FF806882F4FB9F107309F699 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		4A6B17FA2090679200630F04 /* Products */ = {
+		4AAF58702092058B000D061B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A6B17F92090679200630F04 /* GZHTabBarItemDemo.app */,
+				4AAF586F2092058B000D061B /* GIHTabBarItemDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4A6B17FB2090679200630F04 /* GZHTabBarItemDemo */ = {
+		4AAF58712092058B000D061B /* GIHTabBarItemDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4A6B17FC2090679200630F04 /* AppDelegate.h */,
-				4A6B17FD2090679200630F04 /* AppDelegate.m */,
-				4A6B17FF2090679200630F04 /* ViewController.h */,
-				4A6B18002090679200630F04 /* ViewController.m */,
-				4A6B18022090679200630F04 /* Main.storyboard */,
-				4A6B18052090679300630F04 /* Assets.xcassets */,
-				4A6B18072090679300630F04 /* LaunchScreen.storyboard */,
-				4A6B180A2090679300630F04 /* Info.plist */,
-				4A6B180B2090679300630F04 /* main.m */,
+				4AAF58722092058B000D061B /* AppDelegate.h */,
+				4AAF58732092058B000D061B /* AppDelegate.m */,
+				4AAF58752092058B000D061B /* ViewController.h */,
+				4AAF58762092058B000D061B /* ViewController.m */,
+				4AAF58782092058B000D061B /* Main.storyboard */,
+				4AAF587B2092058C000D061B /* Assets.xcassets */,
+				4AAF587D2092058C000D061B /* LaunchScreen.storyboard */,
+				4AAF58802092058C000D061B /* Info.plist */,
+				4AAF58812092058C000D061B /* main.m */,
 			);
-			path = GZHTabBarItemDemo;
+			path = GIHTabBarItemDemo;
 			sourceTree = "<group>";
 		};
-		5E53EBE47E06D50C1DCA8EB5 /* Pods */ = {
+		829D358E654F0F45DB88F573 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				44EE0E2252F29B2D2FEA072A /* Pods-GZHTabBarItemDemo.debug.xcconfig */,
-				F574C4C67AABAC312FD6B551 /* Pods-GZHTabBarItemDemo.release.xcconfig */,
+				3ADBBC712F8C7264AC16A162 /* Pods-GIHTabBarItemDemo.debug.xcconfig */,
+				F652A98C913D99BB45F4A656 /* Pods-GIHTabBarItemDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		DF8CC1F506C08C64C2D592CD /* Frameworks */ = {
+		FF806882F4FB9F107309F699 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0E7F002D9898593705BA567A /* libPods-GZHTabBarItemDemo.a */,
+				F16357228436099484D9943A /* libPods-GIHTabBarItemDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,41 +98,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A6B17F82090679200630F04 /* GZHTabBarItemDemo */ = {
+		4AAF586E2092058B000D061B /* GIHTabBarItemDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A6B180F2090679300630F04 /* Build configuration list for PBXNativeTarget "GZHTabBarItemDemo" */;
+			buildConfigurationList = 4AAF58852092058C000D061B /* Build configuration list for PBXNativeTarget "GIHTabBarItemDemo" */;
 			buildPhases = (
-				0CADF296A40FA473425E9562 /* [CP] Check Pods Manifest.lock */,
-				4A6B17F52090679200630F04 /* Sources */,
-				4A6B17F62090679200630F04 /* Frameworks */,
-				4A6B17F72090679200630F04 /* Resources */,
-				75D2AB6EE29CE18461D4CE41 /* [CP] Embed Pods Frameworks */,
-				26C1A045C7BDC97D11D1833A /* [CP] Copy Pods Resources */,
+				139862EE1926D22C7A05C700 /* [CP] Check Pods Manifest.lock */,
+				4AAF586B2092058B000D061B /* Sources */,
+				4AAF586C2092058B000D061B /* Frameworks */,
+				4AAF586D2092058B000D061B /* Resources */,
+				BBB1F5E41A3E06C4FCB90251 /* [CP] Embed Pods Frameworks */,
+				B3D838C59932F7F25BAB4C8B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GZHTabBarItemDemo;
-			productName = GZHTabBarItemDemo;
-			productReference = 4A6B17F92090679200630F04 /* GZHTabBarItemDemo.app */;
+			name = GIHTabBarItemDemo;
+			productName = GIHTabBarItemDemo;
+			productReference = 4AAF586F2092058B000D061B /* GIHTabBarItemDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4A6B17F12090679200630F04 /* Project object */ = {
+		4AAF58672092058B000D061B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = gaizhi;
 				TargetAttributes = {
-					4A6B17F82090679200630F04 = {
+					4AAF586E2092058B000D061B = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = 4A6B17F42090679200630F04 /* Build configuration list for PBXProject "GZHTabBarItemDemo" */;
+			buildConfigurationList = 4AAF586A2092058B000D061B /* Build configuration list for PBXProject "GIHTabBarItemDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,31 +140,31 @@
 				en,
 				Base,
 			);
-			mainGroup = 4A6B17F02090679200630F04;
-			productRefGroup = 4A6B17FA2090679200630F04 /* Products */;
+			mainGroup = 4AAF58662092058B000D061B;
+			productRefGroup = 4AAF58702092058B000D061B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A6B17F82090679200630F04 /* GZHTabBarItemDemo */,
+				4AAF586E2092058B000D061B /* GIHTabBarItemDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4A6B17F72090679200630F04 /* Resources */ = {
+		4AAF586D2092058B000D061B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A6B18092090679300630F04 /* LaunchScreen.storyboard in Resources */,
-				4A6B18062090679300630F04 /* Assets.xcassets in Resources */,
-				4A6B18042090679200630F04 /* Main.storyboard in Resources */,
+				4AAF587F2092058C000D061B /* LaunchScreen.storyboard in Resources */,
+				4AAF587C2092058C000D061B /* Assets.xcassets in Resources */,
+				4AAF587A2092058B000D061B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0CADF296A40FA473425E9562 /* [CP] Check Pods Manifest.lock */ = {
+		139862EE1926D22C7A05C700 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -175,14 +175,14 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GZHTabBarItemDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GIHTabBarItemDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		26C1A045C7BDC97D11D1833A /* [CP] Copy Pods Resources */ = {
+		B3D838C59932F7F25BAB4C8B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,10 +194,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-GZHTabBarItemDemo/Pods-GZHTabBarItemDemo-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-GIHTabBarItemDemo/Pods-GIHTabBarItemDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		75D2AB6EE29CE18461D4CE41 /* [CP] Embed Pods Frameworks */ = {
+		BBB1F5E41A3E06C4FCB90251 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,37 +209,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-GZHTabBarItemDemo/Pods-GZHTabBarItemDemo-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-GIHTabBarItemDemo/Pods-GIHTabBarItemDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4A6B17F52090679200630F04 /* Sources */ = {
+		4AAF586B2092058B000D061B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A6B18012090679200630F04 /* ViewController.m in Sources */,
-				4A6B180C2090679300630F04 /* main.m in Sources */,
-				4A6B17FE2090679200630F04 /* AppDelegate.m in Sources */,
+				4AAF58772092058B000D061B /* ViewController.m in Sources */,
+				4AAF58822092058C000D061B /* main.m in Sources */,
+				4AAF58742092058B000D061B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4A6B18022090679200630F04 /* Main.storyboard */ = {
+		4AAF58782092058B000D061B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4A6B18032090679200630F04 /* Base */,
+				4AAF58792092058B000D061B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4A6B18072090679300630F04 /* LaunchScreen.storyboard */ = {
+		4AAF587D2092058C000D061B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4A6B18082090679300630F04 /* Base */,
+				4AAF587E2092058C000D061B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -247,7 +247,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4A6B180D2090679300630F04 /* Debug */ = {
+		4AAF58832092058C000D061B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -305,7 +305,7 @@
 			};
 			name = Debug;
 		};
-		4A6B180E2090679300630F04 /* Release */ = {
+		4AAF58842092058C000D061B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,31 +357,31 @@
 			};
 			name = Release;
 		};
-		4A6B18102090679300630F04 /* Debug */ = {
+		4AAF58862092058C000D061B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44EE0E2252F29B2D2FEA072A /* Pods-GZHTabBarItemDemo.debug.xcconfig */;
+			baseConfigurationReference = 3ADBBC712F8C7264AC16A162 /* Pods-GIHTabBarItemDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X9UF9QF7W5;
-				INFOPLIST_FILE = GZHTabBarItemDemo/Info.plist;
+				INFOPLIST_FILE = GIHTabBarItemDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.legend.gaizhi.GZHTabBarItemDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.legend.gaizhi.GIHTabBarItemDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4A6B18112090679300630F04 /* Release */ = {
+		4AAF58872092058C000D061B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F574C4C67AABAC312FD6B551 /* Pods-GZHTabBarItemDemo.release.xcconfig */;
+			baseConfigurationReference = F652A98C913D99BB45F4A656 /* Pods-GIHTabBarItemDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X9UF9QF7W5;
-				INFOPLIST_FILE = GZHTabBarItemDemo/Info.plist;
+				INFOPLIST_FILE = GIHTabBarItemDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.legend.gaizhi.GZHTabBarItemDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.legend.gaizhi.GIHTabBarItemDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -390,25 +390,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A6B17F42090679200630F04 /* Build configuration list for PBXProject "GZHTabBarItemDemo" */ = {
+		4AAF586A2092058B000D061B /* Build configuration list for PBXProject "GIHTabBarItemDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A6B180D2090679300630F04 /* Debug */,
-				4A6B180E2090679300630F04 /* Release */,
+				4AAF58832092058C000D061B /* Debug */,
+				4AAF58842092058C000D061B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A6B180F2090679300630F04 /* Build configuration list for PBXNativeTarget "GZHTabBarItemDemo" */ = {
+		4AAF58852092058C000D061B /* Build configuration list for PBXNativeTarget "GIHTabBarItemDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A6B18102090679300630F04 /* Debug */,
-				4A6B18112090679300630F04 /* Release */,
+				4AAF58862092058C000D061B /* Debug */,
+				4AAF58872092058C000D061B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4A6B17F12090679200630F04 /* Project object */;
+	rootObject = 4AAF58672092058B000D061B /* Project object */;
 }

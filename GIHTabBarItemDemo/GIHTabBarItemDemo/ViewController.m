@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  GZHTabBarItemDemo
+//  GIHTabBarItemDemo
 //
 //  Created by 徐强 on 2018/4/25.
 //  Copyright © 2018年 gaizhi. All rights reserved.
@@ -34,10 +34,12 @@
 - (IBAction)newBadge:(id)sender {
     self.tabBarItem.badgeValue = @"new";
     self.tabBarItem.title = @"new字符";
+    self.tabBarItem.badgeColor = [UIColor redColor];
 }
 - (IBAction)tenBadge:(id)sender {
     self.tabBarItem.badgeValue = @"10";
     self.tabBarItem.title = @"10字符";
+    self.tabBarItem.badgeColor = [UIColor greenColor];
 }
 - (IBAction)nilBadge:(id)sender {
     self.tabBarItem.badgeValue = nil;

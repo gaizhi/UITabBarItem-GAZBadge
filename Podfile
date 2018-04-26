@@ -1,10 +1,10 @@
-workspace 'GZHTabBarItem'
+workspace 'GIHTabBarItem'
 
-target 'GZHTabBarItemDemo' do
+target 'GIHTabBarItemDemo' do
 
     platform :ios, '7.0'
 
-    pod 'UITabBarItem-GZHTabBarItem', :path => './UITabBarItem-GZHTabBarItem.podspec'
+    pod 'UITabBarItem-GIHTabBarItem', :path => './UITabBarItem-GIHTabBarItem.podspec'
 
-    project 'GZHTabBarItemDemo/GZHTabBarItemDemo.xcodeproj'
+    project 'GIHTabBarItemDemo/GIHTabBarItemDemo.xcodeproj'
 end

@@ -1,20 +1,20 @@
 //
-//  UITabBarItem+GZHTabBarItem.m
-//  GZHTabBarItem
+//  UITabBarItem+GIHTabBarItem.m
+//  GIHTabBarItem
 //
 //  Created by 徐强 on 2017/5/23.
 //  Copyright © 2017年 starnet. All rights reserved.
 //
 
-#import "UITabBarItem+GZHTabBarItem.h"
+#import "UITabBarItem+GIHTabBarItem.h"
 
-#import "NSObject+GZHObject.h"
+#import "NSObject+GIHObject.h"
 
 #import <objc/runtime.h>
 
-static char GZHTabBarItemDotViewKey;
+static char GIHTabBarItemDotViewKey;
 
-@implementation UITabBarItem (GZHTabBarItem)
+@implementation UITabBarItem (GIHTabBarItem)
 
 + (void)load {
     [self gzh_swizzleSelector:@selector(setBadgeValue:) withSelector:@selector(gzh_setBadgeValue:)];
@@ -100,11 +100,11 @@ static char GZHTabBarItemDotViewKey;
 
 # pragma mark getter setter
 - (void)setDotView:(UIView *)dotView {
-    objc_setAssociatedObject(self, &GZHTabBarItemDotViewKey, dotView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, &GIHTabBarItemDotViewKey, dotView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 - (UIView *)dotView {
-    return objc_getAssociatedObject(self, &GZHTabBarItemDotViewKey);
+    return objc_getAssociatedObject(self, &GIHTabBarItemDotViewKey);
 }
 
 @end

@@ -1,19 +1,19 @@
 PODS:
-  - NSObject-GZHObject (0.0.1)
-  - UITabBarItem-GZHTabBarItem (0.0.1):
-    - NSObject-GZHObject (~> 0.0.1)
+  - NSObject-GIHObject (0.0.1)
+  - UITabBarItem-GIHTabBarItem (0.0.1):
+    - NSObject-GIHObject (~> 0.0.1)
 
 DEPENDENCIES:
-  - UITabBarItem-GZHTabBarItem (from `./UITabBarItem-GZHTabBarItem.podspec`)
+  - UITabBarItem-GIHTabBarItem (from `./UITabBarItem-GIHTabBarItem.podspec`)
 
 EXTERNAL SOURCES:
-  UITabBarItem-GZHTabBarItem:
-    :path: ./UITabBarItem-GZHTabBarItem.podspec
+  UITabBarItem-GIHTabBarItem:
+    :path: ./UITabBarItem-GIHTabBarItem.podspec
 
 SPEC CHECKSUMS:
-  NSObject-GZHObject: b4b618bc10f532bcdd0896a6bc990f22d5c24ec9
-  UITabBarItem-GZHTabBarItem: be0f39fb25b512f71df7d54bfad6facee8f37a8d
+  NSObject-GIHObject: 716e4f47d4a0ce0dc112ba25ad80841e77877037
+  UITabBarItem-GIHTabBarItem: 6f6873908f26fa82e5d3b78de62a7d845e29597d
 
-PODFILE CHECKSUM: 963afeda12d3d83211b05a6630607e072a0d2df1
+PODFILE CHECKSUM: 756e117e67cc691d67eb93fbee99f51a2c875446
 
 COCOAPODS: 1.4.0
