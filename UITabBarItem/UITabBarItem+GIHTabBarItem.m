@@ -17,25 +17,25 @@ static char GIHTabBarItemDotViewKey;
 @implementation UITabBarItem (GIHTabBarItem)
 
 + (void)load {
-    [self gzh_swizzleSelector:@selector(setBadgeValue:) withSelector:@selector(gzh_setBadgeValue:)];
-    [self gzh_swizzleSelector:@selector(setBadgeColor:) withSelector:@selector(gzh_setBadgeColor:)];
-    [self gzh_swizzleSelector:@selector(setView:) withSelector:@selector(gzh_setView:)];
+    [self gih_swizzleSelector:@selector(setBadgeValue:) withSelector:@selector(gih_setBadgeValue:)];
+    [self gih_swizzleSelector:@selector(setBadgeColor:) withSelector:@selector(gih_setBadgeColor:)];
+    [self gih_swizzleSelector:@selector(setView:) withSelector:@selector(gih_setView:)];
 }
 
 # pragma mark swizzle method
-- (void)gzh_setBadgeValue:(NSString *)badgeValue {
+- (void)gih_setBadgeValue:(NSString *)badgeValue {
     // 如果设置为红点，即badgeVaule=@"", 则隐藏原生的badge并自定义红点，否则隐藏自定义红点，并显示原生badge
     if (badgeValue != nil && badgeValue.length == 0) {
-        [self gzh_setBadgeValue:nil];
+        [self gih_setBadgeValue:nil];
         [self showBadgeDot];
     } else {
         [self hideBadgeDot];
-        [self gzh_setBadgeValue:badgeValue];
+        [self gih_setBadgeValue:badgeValue];
     }
 }
 
-- (void)gzh_setBadgeColor:(UIColor *)color {
-    [self gzh_setBadgeColor:color];
+- (void)gih_setBadgeColor:(UIColor *)color {
+    [self gih_setBadgeColor:color];
 
     // 如果当前存在自定义dot，则修改dot的颜色
     if (self.dotView) {
@@ -43,8 +43,8 @@ static char GIHTabBarItemDotViewKey;
     }
 }
 
-- (void)gzh_setView:(UIView *)view {
-    [self gzh_setView:view];
+- (void)gih_setView:(UIView *)view {
+    [self gih_setView:view];
 
     // 每次dot的superView发生变化时，应该重新设置dot
     [self setBadgeValue:(self.dotView && self.dotView.superview && !self.dotView.hidden ? @"" : self.badgeValue)];
